@@ -34,3 +34,7 @@
 	path = layers/openembedded-core
 	url = https://git.openembedded.org/openembedded-core
 	branch = master
+[submodule "layers/meta-tegra-compulab"]
+	path = layers/meta-tegra-compulab
+	url = https://github.com/compulab-yokneam/meta-tegra-compulab.git
+	branch = edgeai-orn-balena-7.2
