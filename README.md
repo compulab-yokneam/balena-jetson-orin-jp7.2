@@ -17,6 +17,14 @@ Given there is a major BSP upgrade from Jetpack 6 to Jetpack 7, prior to updatin
 * Avoid interrupting the update process by rebooting or by cutting power to the device
 
 
+## CompuLab EdgeAI-ORN
+
+`edgeai-orn-nano` supports the Nano 4GB/8GB modules, and `edgeai-orn-nx`
+supports the NX 8GB/16GB modules. Build either machine with the default layer
+template and `balena-image-flasher`. Carrier support and family DTB selection
+are provided by the vendored [meta-tegra-compulab layer](https://github.com/compulab-yokneam/meta-tegra-compulab/blob/edgeai-orn-balena-7.2/README.md).
+See [validation results and remaining hardware checks](https://github.com/compulab-yokneam/meta-tegra-compulab/blob/edgeai-orn-balena-7.2/tests/compulab/README.md).
+
 ## Clone/Initialize the repository
 
 There are two ways of initializing this repository:

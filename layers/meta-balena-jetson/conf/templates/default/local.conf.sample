@@ -1,4 +1,6 @@
 # Supported machines
+#MACHINE ?= "edgeai-orn-nano"
+#MACHINE ?= "edgeai-orn-nx"
 #MACHINE ?= "forecr-dsb-ornx-orin-nano-8gb"
 #MACHINE ?= "jetson-agx-orin-devkit-64gb"
 #MACHINE ?= "jetson-agx-orin-devkit"
